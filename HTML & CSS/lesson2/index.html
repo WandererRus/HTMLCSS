@@ -7,24 +7,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
+            * {
+                box-sizing: border-box;
+            }
             html, body {
                 margin: 0;
                 padding: 0;
                 width: 100%;
-                min-height: 100vh;
+                height: 100vh;
+                background: #ccc;
+            }
+            div {
+                background: #999;
+            }
+            ol {
+                background: #555;
+                margin: 0px;
+                padding: 0px;
+                border:2px solid white;
+            }
+            li {
+                background: #222;
+                color:white;
             }
         </style>
     </head>
 
     <body>
         <div>
-            <ul>
+            <ol>
                 <li>Book1</li>
                 <li>Book2</li>
                 <li>Book3</li>
                 <li>Book4</li>
                 <li>Book5</li>
-            </ul>
+            </ol>
         </div>
     </body>
 
