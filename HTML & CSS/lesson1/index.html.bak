@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>		
+		<header> 
+			<div>
+				<h1>Название сайта</h1>
+			</div>
+		</header>
+		<main>
+			<table border="2">
+				<tr>
+					<th>123</th>
+					<th>123</th>
+					<th>123</th>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td colspan="2">123</td>
+				</tr>
+				<tr>
+					<td rowspan="7">123</td>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+				<tr>
+					<td>123</td>
+					<td>123</td>
+				</tr>
+			</table>
+		
+			<p>dgf<span>sks</span>dgfj<b>gdsh</b>j2342<i>3423</i>4234</p>
+			<p>dsfdsfsdfdsfsd</p>
+			<p><code>
+    function checkParent (src, dest) {<br>
+     while (src != null) {<br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>		
+				
+			<abbr title="Hyper Text Markup Language">HTML<sup>2</sup><sub>2</sub></abbr> 
+			
+			<!--<h2>Заголовок</h2>-->
+			<h2>Заголовок &#77804;;&nbsp;</h2>
+			<hr >
+			<h2>Заголовок</h2>
+			<h3>Заголовок</h3>
+			<h4>Заголовок</h4>
+			<h5>Заголовок</h5>
+			<h6>Заголовок</h6>
+			<ul>
+				<li>hdjsghkjsdg</li>
+				<li>hdjsghkjsdg</li>
+			</ul>
+			<ol>
+				<li>hdjsghkjsdg</li>
+				<li>hdjsghkjsdg</li>
+			</ol>
+			<div>
+				<p id="red" class="violet">dsfdsfsdfdsfsd</p>
+				<p class="violet">dsfdsfsdfdsfsd</p>
+				<p>dsfdsfsdfdsfsd</p>
+			</div>
+		</main>
+		<footer>
+			<a href="page.html">Моя страница</a>
+			<a href="page.html">Моя страница</a>
+			<a href="page.html">Моя страница</a>
+			<a href="page.html">Моя страница</a>
+			<a href="page.html">Моя страница</a>
+			<a href="page.html">Моя страница</a>
+		</footer>
+	</body>
+</html>

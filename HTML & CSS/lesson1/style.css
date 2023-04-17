@@ -1,0 +1,26 @@
+/*
+
+*/
+
+* { /*ко всем элементам*/
+	color:green;
+}
+
+p { /*ко всем тэгам p*/
+	color:blue;
+}
+
+div p {/*ко всем тэгам p находящимся внутри элементов div*/
+	color:yellow;
+}
+
+#red {
+	color:red;
+}
+.violet {
+	color:violet;
+}
+
+.bigfont {
+	font-size:30px;
+}

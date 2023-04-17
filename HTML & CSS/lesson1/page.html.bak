@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заголовок</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<p>dgf<span>sks</span>dgfj<b>gdsh</b>j2342<i>3423</i>4234</p>
+		<p>dsfdsfsdfdsfsd</p>
+		<p>sdfsdfsdfdsfd</p>
+		<img src="C:/Users/Осипян Максим/Desktop/работа.jpg" alt="Чья-то работа"/>		
+		<a href="https://google.com" target="_blank">Поисковик Google</a>
+	</body>
+</html>
