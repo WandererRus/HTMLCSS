@@ -10,7 +10,7 @@ body,html {
 }
 .clock-wrapper {
     display: block;
-    width:200px;
+    width: 200px;
     height: 200px;
 }
 .circle {
@@ -54,59 +54,15 @@ body,html {
     background: lightseagreen;
 }
 @keyframes myrotate {
-    0% {
-        transform: rotate(0deg);
-        margin-right: 0;
-        margin-top: 0;
-    }
-    10% {
-        transform: rotate(36deg);
-        margin-right: -55px;
-        margin-top: 5px;
-    }
-    20% {
-        transform: rotate(72deg);
-        margin-right: -95px;
-        margin-top: 30px;
-    }
-    30% {
-        transform: rotate(108deg);
-        margin-right: -100px;
-        margin-top: 60px;
-    }
-    40% {
-        transform: rotate(144deg);
-        margin-right: -65px;
-        margin-top: 90px;
-    }
-    50% {
-        transform: rotate(180deg);
-        margin-right: 0px;
-        margin-top: 100px;
-    }
-    60% {
-        transform: rotate(216deg);
-        margin-right: 65px;
-        margin-top: 90px;
-    }
-    70% {
-        transform: rotate(252deg);
-        margin-right: 100px;
-        margin-top: 60px;
-    }
-    80% {
-        transform: rotate(288deg);
-        margin-right: 95px;
-        margin-top: 30px;
-    }
-    90% {
-        transform: rotate(324deg);
-        margin-right: 60px;
-        margin-top: 5px;
-    }
-    100% {
-        transform: rotate(360deg);
-        margin-right: 0;
-        margin-top: 0;
-    }
+    0%  { transform: rotate(0deg);   margin-right: 0;      margin-top: 0;     }
+    10% { transform: rotate(36deg);  margin-right: -55px;  margin-top: 5px;   }
+    20% { transform: rotate(72deg);  margin-right: -95px;  margin-top: 30px;  }
+    30% { transform: rotate(108deg); margin-right: -100px; margin-top: 60px;  }
+    40% { transform: rotate(144deg); margin-right: -65px;  margin-top: 90px;  }
+    50% { transform: rotate(180deg); margin-right: 0px;    margin-top: 100px; }
+    60% { transform: rotate(216deg); margin-right: 65px;   margin-top: 90px;  }
+    70% { transform: rotate(252deg); margin-right: 100px;  margin-top: 60px;  }
+    80% { transform: rotate(288deg); margin-right: 95px;   margin-top: 30px;  }
+    90% { transform: rotate(324deg); margin-right: 60px;   margin-top: 5px;   }
+    100%{ transform: rotate(360deg); margin-right: 0;      margin-top: 0;     }
 }
