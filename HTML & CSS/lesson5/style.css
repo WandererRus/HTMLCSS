@@ -5,6 +5,12 @@ body,html {
     padding: 0;
     box-sizing: border-box;
 }
+#wrapper {
+    margin-left: 5%;
+    width:90%;
+    height:400px;
+    overflow: scroll;
+}
 table {
     width: calc(1920px*0.9);
     border-spacing: 0;
