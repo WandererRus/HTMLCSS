@@ -17,17 +17,48 @@ div#wrapper {
     height: 100%;
 }
 div#leftside {
-    width: 10%;
+    width: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
+    background: #8a8a8a;
+    padding: 1%;
+}
+div#leftside ul {
+    padding: 0;
+    list-style-type: none;
+}
+div#leftside p {
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.icon {
+    display: flex;
+    width:75px;
+    height: 75px;
+}
+.edit {
+    background: url(images/edit.png) center/cover no-repeat;
+}
+.favorites {
+    background: url(images/favorites.png) center/cover no-repeat;
+}
+.history {
+    background: url(images/history.png) center/cover no-repeat;
+}
+.security {
+    background: url(images/security.png) center/cover no-repeat;
+}
+.settings {
+    background: url(images/settings.png) center/cover no-repeat;
 }
 div#rightside {
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 3%;
 }
