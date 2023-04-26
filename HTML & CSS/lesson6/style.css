@@ -3,8 +3,43 @@ body,html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+div#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #074342;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.breadcrumbs, .item-title {
+    color: #6d888a;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.main-title, .item-value {
+    color:white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main-title {
+    font-size: 90px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin:50px 0;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+}
+.items {
+    display: flex;
+    flex-direction: row;
 }
