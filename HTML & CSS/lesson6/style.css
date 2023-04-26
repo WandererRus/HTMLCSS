@@ -38,8 +38,28 @@ div#wrapper {
 .description {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .items {
     display: flex;
     flex-direction: row;
+}
+.avatar {
+    margin-right: 40px;
+}
+.avatar img {
+    border-radius: 50%;
+    border: 5px solid #444951;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+}
+.item {
+    margin-right: 10%;
+}
+.item-title, .item-value {
+    margin: 8px 0;
 }
