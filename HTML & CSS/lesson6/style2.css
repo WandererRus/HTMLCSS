@@ -94,7 +94,7 @@ div#wrapper {
     color: black;
     text-decoration: none;
     font-family: Roboto;
-    font-size: 1.05vw;
+    font-size: calc(8px + 0.53vw);
     width: 80%;
 }
 .rightside {
@@ -142,7 +142,7 @@ div#wrapper {
     flex-direction: row;    
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 0.94vw;
+    font-size: calc(8px + 0.47vw);
 }
 .context {
     width: 55%;
@@ -151,10 +151,13 @@ div#wrapper {
     font-family: 'Roboto';
     font-weight: 500;
 }
+.subject {
+    font-size: calc(8px + 0.47vw);
+}
 .subject span {
     color: grey;
     font-weight: 400;
-    font-size: 0.75vw;
+    font-size: calc(8px + 0.38vw);
 }
 .attachment {
     display: flex;
@@ -190,7 +193,7 @@ div#wrapper {
     width: 100%;
     text-align: right;
     font-family: Roboto;
-    font-size:0.86vw;
+    font-size:calc(8px + 0.43vw);
     font-weight:400;
 }
 .area1 {
@@ -198,8 +201,19 @@ div#wrapper {
     flex-direction: column;
     width: 100%;
 }
-
 a:hover + .rightside .area1
 {
     display: none;
+}
+
+@media screen and (max-width:800px) and (min-width:550px) {
+    .leftside {
+        width:25%;
+    }
+    .rightside {
+        width: 75%;        
+    }
+    .list-item-text {
+        font-size: calc(12px + 0.53vw);
+    }
 }
