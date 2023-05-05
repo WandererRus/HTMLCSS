@@ -82,4 +82,10 @@ h3.card-title {
     flex-direction: row;
     width: 100%;
     margin-top: 20px;
+    justify-content: space-between;
+}
+.card-item-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
 }
