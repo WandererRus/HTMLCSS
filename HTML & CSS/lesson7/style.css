@@ -77,3 +77,9 @@ h3.card-title {
 .card-item p {
     font-family: Roboto;
 }
+.card-item-additional {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
