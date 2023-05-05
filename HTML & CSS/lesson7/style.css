@@ -43,7 +43,7 @@ div#wrapper {
 .cards {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 .card {
