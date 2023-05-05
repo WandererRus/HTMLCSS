@@ -83,9 +83,52 @@ h3.card-title {
     width: 100%;
     margin-top: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 .card-item-icon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     display: flex;
+}
+.list-icon {
+    background: url(images/justify_26.png);
+    background-size: contain;
+}
+.check-icon {
+    background: url(images/checkbox_26.png);
+    background-size: contain;
+}
+.attach-icon {
+    background: url(images/attach_26.png);
+    background-size: contain;
+}
+.message-icon {
+    background: url(images/comments_26.png);
+    background-size: contain;
+}
+.person-icon {
+    background: url(images/avatar_1.png);
+    background-size: contain;
+}
+.large-icon {
+    width:30px;
+    height:30px;
+}
+.check-icon::after {
+    content: "4/8";
+    display: block;
+    padding-left: 25px;
+    padding-top: 4px;
+}
+.message-icon::after {
+    content: "4";
+    display: block;
+    padding-left: 25px;
+    padding-top: 4px;
+}
+.attach-icon::after {
+    content: "7";
+    display: block;
+    padding-left: 25px;
+    padding-top: 4px;
 }
