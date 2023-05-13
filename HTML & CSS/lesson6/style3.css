@@ -1,0 +1,90 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ababab;
+}
+img {
+    max-width: 100%;
+}
+div#wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 3%;
+}
+.head_text {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    width: 75%;
+}
+.cats {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    order: 3;
+    width: 25%;
+    right: 0;
+}
+.cat_item {
+    display: flex;
+    width: 100%;
+}
+.cat_item p {
+    background: #37516b;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
+figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.add_text {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    width: 75%;
+}
+/* фиксированный фон (пример использования)*/
+/* .back_image {
+    background: url(images/cat2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+} */ 
+
+
+@media screen and (max-width:1400px) {
+    .cats {
+        flex-direction: row;
+        position: relative;
+        order: 2;
+        width: 100%;
+    }
+    .head_text {
+        order: 1;
+        width: 100%;
+    }
+    .add_text {
+        order: 3;
+        width: 100%;
+    }
+}
